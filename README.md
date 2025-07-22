@@ -10,7 +10,6 @@ A web application that analyzes a user's resume and the job role they've applied
   - Technical (1–5)
   - Behavioral (6–10)
 - Clean formatting without markdown or symbols
-- Editable prompts and results
 - Gemini API integration
 - Scrollable, styled chat-like output
 
@@ -27,7 +26,8 @@ A web application that analyzes a user's resume and the job role they've applied
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, TailwindCSS
+- **Frontend:** React, CSS
+- **Backend:** Python Flask
 - **AI Model:** Gemini (Google Generative AI API)
 - **State Management:** React hooks (`useState`, `useEffect`)
 - **File Handling:** HTML file upload, text parsing
