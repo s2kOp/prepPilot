@@ -14,6 +14,17 @@ A web application that analyzes a user's resume and the job role they've applied
 - Gemini API integration
 - Scrollable, styled chat-like output
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/LaunchScreen.png)
+
+### File and Role Upload
+![UserInput](./screenshots/pdfUpload.png)
+
+### Generated Questions
+![Results Page](./screenshots/prepQuestions.png)
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, TailwindCSS
@@ -28,4 +39,20 @@ A web application that analyzes a user's resume and the job role they've applied
 ```bash
 git clone https://github.com/s2kOp/prepPilot.git
 cd prepPilot
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3.**Set your Gemini API key**
+Create a .env file in the root folder:
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
+4.**Start the development server**
+```bash
+npm run dev
 ```
